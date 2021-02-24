@@ -1,0 +1,14 @@
+body {
+   text-algin: center;
+   font-family: Lucida Handwriting;
+   background-color: grey;
+   color: Blue;
+}
+
+body img{
+   border: 5px solid black;
+  }
+
+#Barba img{
+width: 510px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="with-device-with, initial-scale=1.0">
+    <link href="Simulação_Preço.css" type="text/css" rel="Stylesheet">
+    <title>Simulação Preço</title>
+</head>
+<body>
+    <h1>Simular Preço</h1>
+    <input type="number" name="n1" id="n1">
+    +
+    <input type="number" name="n2" id="n2">
+    <input type="button" name="somar" id="somar" value= "Somar" onclick="soma()">
+    <div id="res">Resultado</div>
+
+    <script>
+        function soma(){
+            var num1 = Number(window.document.getElementById('n1').value)
+            var num2 = Number(window.document.getElementById('n2').value)
+            var s = window.document.getElementById('res')
+
+            var res= num1 + num2
+            s.innerText = `A soma da barba (${num1}€) e barba (${num2}€) é: ${res}€`
+        }
+    </script>
+    <img src="ImagemFundo.jpg">
+</body>
+</html>

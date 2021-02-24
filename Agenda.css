@@ -1,0 +1,12 @@
+body {
+   background-image: url("ImagemFundo.jpg");
+   text-algin: center;
+   font-family: Lucida Handwriting;
+   background-color: grey;
+   color: Blue;
+}
+
+iframe{
+  height: 250px;
+  width: 250px;
+}

@@ -1,0 +1,15 @@
+body {
+   background-image: url("ImagemFundo.jpg");
+   text-algin: center;
+   font-family: Lucida Handwriting;
+   background-color: grey;
+   color: Blue;
+}
+table {
+   padding: 10px;
+}
+.ce {
+  margin-left: 800%;
+  margin-right: 300%;
+}
+

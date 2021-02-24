@@ -1,0 +1,35 @@
+   
+body {
+   background-image: url("ImagemFundo.jpg");
+   text-algin: center;
+   font-family: Lucida Sans;
+   background-color: grey;
+   color: Blue;
+}
+
+h1{
+   font-family: Lucida Sans;
+   color: blue;
+   font-size: 35px;
+   text-align: center;
+}
+
+#linksmenu li a{
+       display: block;
+       width: 100%;
+       line-height: 65%;
+       font-size: 20px;
+       color: white;
+       padding-left: 30px;
+       box-sizing: border-box;
+       border-top: 1px solid rgba(255,255,255,.1);
+       border-bottom: 1px solid black;
+       transition: .5s;
+}
+
+#linksmenu a:hover{
+        padding-left: 50px;
+}
+
+
+
